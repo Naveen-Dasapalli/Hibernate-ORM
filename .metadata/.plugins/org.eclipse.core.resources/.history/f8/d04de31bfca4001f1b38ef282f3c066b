@@ -1,0 +1,23 @@
+package com.Hibernate.ORM.JavaBasedConfiguration;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Configuration configuration = MyConfiguration.configurationHibernate();
+       SessionFactory sessionFactory = configuration.buildSessionFactory();
+       Session session = sessionFactory.openSession();
+       
+       Transaction tx = session.beginTransaction();
+       
+       tx.commit();
+       session.close();
+       sessionFactory.close();
+
+    }
+}

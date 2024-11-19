@@ -1,0 +1,22 @@
+package com.primaryKey;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class App {
+	public static void main(String[] args) {
+		
+		SessionFactory sessionFactory = MyConfiguration.configurationHibernate().buildSessionFactory();
+		Session session = sessionFactory.openSession();
+		Transaction tx = session.beginTransaction();
+		
+		User user1 = new User("Naveen");
+		
+		
+		tx.commit();
+		session.close();
+		sessionFactory.close();
+		
+	}
+}

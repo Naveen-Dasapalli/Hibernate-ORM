@@ -1,0 +1,7 @@
+package com.Hibernate.ORM.JavaBasedConfiguration;
+
+public class UserModel {
+
+	private int id;
+	private String name;
+}

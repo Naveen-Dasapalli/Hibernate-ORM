@@ -1,0 +1,5 @@
+package com.Hibernate.ORM;
+
+public class HibernateUtil {
+
+}
