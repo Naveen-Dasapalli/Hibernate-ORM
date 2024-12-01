@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+    <fullyQualifiedTypeName name="com.Hibernate.ORM.HibernateUtil"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transaction"/>
+    <fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
+    <fullyQualifiedTypeName name="javax.annotation.Generated"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Generated"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.CriteriaBuilder"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.CriteriaQuery"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Query"/>
+    <fullyQualifiedTypeName name="com.Hibernate.ORM.JavaBasedConfiguration.MyConfiguration"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.h2.engine.User"/>
+    <fullyQualifiedTypeName name="com.Hibernate.ORM.JavaBasedConfiguration.UserModel"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.primaryKey.MyConfiguration"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.PrimaryKeyJoinColumn"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="com.foreignKeyAssociation.Boy"/>
+    <fullyQualifiedTypeName name="com.foreignKeyAssociation.Girl"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+</qualifiedTypeNameHistroy>
